@@ -1,0 +1,93 @@
+:root{
+/* colors*/
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--light-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+/*font-family*/
+-- Outfit: 'Outfit', sans-serif;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0%;
+
+}
+
+html{
+    font-family: var(Outfit);
+    background-color: var(--Light-gray)
+}
+
+.main-container {
+    background-color: var(--Light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 20px;
+}
+
+.main-card{
+    background-color: var(--White);
+    
+    width: 250px;
+    height: 400px;
+    border-radius: 20px;
+
+}
+
+.header-img {
+    width: 225px;
+    height: 200px;
+    margin: 12px 13px;
+    background-image: url(/design/mobile-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.header-container{
+    text-align: center;
+    font-weight: bold;
+    color: var(--Dark-blue);
+    padding: 5px 5px 10px 5px;
+}
+
+.span{
+    text-align: center;
+    color: var(--light-blue);
+    line-height: 1.6rem;
+
+}
+/* footer*/
+
+.attribution { 
+    font-size: 20px; 
+    text-align: center; 
+    margin-bottom: 10px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    
+    
+ }
+
+.attribution a:hover{
+    color: var(--Dark-blue);
+    cursor: pointer;
+
+}
+
+@media only screen (min-width 1040px){
+    
+    
+}
