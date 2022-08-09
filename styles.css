@@ -66,6 +66,8 @@ html{
 .span{
     text-align: center;
     color: var(--light-blue);
+    margin: 5px;
+    padding: 5px;
     
 
 
